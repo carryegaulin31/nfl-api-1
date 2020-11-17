@@ -21,7 +21,7 @@ INSERT INTO users(location, mascot, abbreviation, conference, division) Values (
 INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('New England','Patriots', 'NE', 'AFC','East')
 INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('New York','Jets', 'NYJ', 'AFC','East')
 INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('Baltimore','Ravens', 'BAL', 'AFC','North')
-INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('Cincinnati','Bengals', 'CIN', 'AFC','AFC')
+INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('Cincinnati','Bengals', 'CIN', 'AFC','North')
 INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('Cleveland','Browns', 'CLE', 'AFC','North')
 INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('Pittsburgh','Steelers', 'PIT', 'AFC','North')
 INSERT INTO users(location, mascot, abbreviation, conference, division) Values ('Houston','Texans', 'HOU', 'AFC','South')

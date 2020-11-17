@@ -8,7 +8,7 @@ app.get('/', getAllTeams)
 
 app.get('/:id', getTeamBySlug)
 
-app.post('/', express.json(), saveNewTeam)
+app.post('/', bodyParser.json(), saveNewTeam)
 
 
 app.listen(1338, () => {

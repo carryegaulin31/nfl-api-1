@@ -1,7 +1,16 @@
 const teams = require('../teams')
-
-const getAllTeams = (request, response) => {
+const models = require('../models')
+/* const getAllTeams = (request, response) => {
   return response.send(teams)
+} */
+const getAllTeams = async (request, response) => {
+  try {
+    const teams = await models.Teams.findAll()
+
+    return response.send(teams)
+  } catch (error) {
+    return response.status(404).send('Sorry not found')
+  }
 }
 
 const saveNewTeam = (request, response) => {

@@ -3,7 +3,7 @@ CREATE DATABASE nfl;
 
 USE nfl;
 
-CREATE TABLE nfl (
+CREATE TABLE teams (
     id INT auto_increment,
     location VARCHAR(255),
     mascot VARCHAR(255),
